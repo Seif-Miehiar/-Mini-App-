@@ -1,0 +1,31 @@
+{
+  "name": "-mini-app-",
+  "version": "1.0.0",
+  "description": "mini app project 5/8/2019",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "babel": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seif-Miehiar/-Mini-App-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seif-Miehiar/-Mini-App-/issues"
+  },
+  "homepage": "https://github.com/Seif-Miehiar/-Mini-App-#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6",
+    "nodemon": "^1.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
